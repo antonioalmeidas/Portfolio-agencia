@@ -14,7 +14,7 @@
 }
 
 section.main{
-  background-image: url('images/bg.svg');   
+  background-image: url('images/bg.svg');
   background-position: center;
   background-size: cover;
   min-height: 700px;
@@ -49,7 +49,7 @@ section.main{
 .items-menu a.contact-btn{
   border: 0;
 }
-.mockup{display:block;width: 100%;color: white;text-align: center;padding: 100px;}
+.mockup{display:block;width: 100%;color: white;text-align: center;padding:100px;}
 
 .mockup h1{
   font-size: 50px;
@@ -59,11 +59,106 @@ span {
   font-weight: 800;
 }
 
-p{
-  margin: 20px  0;
-}
 .mockup img{
   max-width:100%;
 }
+
+section.marcas img{
+  width: calc(100%/5);
+}
+
+section.marcas{
+  padding: 100px 0;
+}
+
+section.porque-nos{
+  padding: 40px 0;
+  background-color: #FBFCFE;
+}
+
+section.porque-nos > .center > h2{
+  font-size: 50px;
+  text-align: center;
+  width: 100%;/*ocupar todo espaço disponível*/
+  margin-bottom:10px;
+}
+
+section.porque-nos > .center > p{
+  font-size: 14px;
+  color: #ccc;
+  text-align: center;
+  width: 100%;/*ocupar todo espaço disponível*/
+}
+
+.diferenciais{
+  display: flex;
+  margin-top: 50px;
+}
+
+.box-diferenciais{
+  box-shadow: 0px 20px 40px #24267221;
+  width: 31%;
+  margin-right: 2%;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.box-diferenciais h3{
+  font-size: 28px;
+  color: black;
+  margin:20px 0;
+}
+
+.box-diferenciais p{
+ font-size: 13px;
+ color: #7E92AC;
+ margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 768px){
+  .diferenciais{
+    flex-wrap: wrap;
+  }
+  .box-diferenciais{
+    width:100%;
+    margin-right: 0;
+  }
+  section.marcas{
+    text-align:center;
+  }
+  section.marcas{
+    padding:0;
+  }
+  section.marcas > .center{
+    flex-wrap:nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  section.marcas img{
+    width:100%;
+    max-width:200px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
