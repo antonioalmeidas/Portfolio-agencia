@@ -43,7 +43,11 @@ section.main{
 .items-menu a.contact-btn{
   background-color: #0F3FD3;
   padding: 10px 10px;
-  border-radius: 10px;
+  border-radius: 8px;
+}
+
+.items-menu a.contact-btn:hover{
+  background: #FFDD33;
 }
 
 .items-menu a.contact-btn{
@@ -136,7 +140,7 @@ section.cta h2{
 section.cta a{
   display: inline-block;
   padding:10px 15px;
-  border-radius: 5px;
+  border-radius: 8px;
   font-size:17px;
   font-weight:bold;
   text-decoration:none;
@@ -146,8 +150,82 @@ section.cta a{
   text-transform: uppercase;
 }
 
+section.beneficios{
+  padding: 50px 0;
+}
+
+.lista-beneficios{
+  width: 40%;
+  margin-top: 35px;
+}
+
+.lista-beneficios h1{
+  color: black;
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.lista-beneficios p{
+  color: #7e92ac;
+  vertical-align: middle;
+  font-size: 13px;
+}
+
+.lista-beneficios span{
+  display: inline-block;
+  width: calc(100% - 70px);
+  margin-left: 15px;
+}
+
+.margin{
+  margin-bottom: 50px;
+}
+
+.lista-beneficios  img{
+  display:inline-block;
+  vertical-align: middle;
+  width: 70px;
+  margin:0 -19px;
+}
+
+.img-beneficios{
+  width:60%;
+}
+
+.img-beneficios img{
+  max-width: 100%;
+  padding-left:25%;
+}
+
+
+.lista-beneficios  a{
+  padding:10px 15px;
+  border-radius: 8px;
+  font-size:17px;
+  font-weight:bold;
+  text-decoration:none;
+  background:#255AFF;
+  color: #ffffff;
+  letter-spacing: 1px;
+  opacity: 1;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
 
 @media screen and (max-width: 768px){
+  .lista-beneficios{
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+  .img-beneficios{
+    width:100%;
+  } 
+  .img-beneficios img{
+    max-width: 100%;
+    padding: 0;
+  }
   .diferenciais{
     flex-wrap: wrap;
   }
